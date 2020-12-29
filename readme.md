@@ -13,7 +13,7 @@ git clone https://github.com/mauricioarizaga/concesionaria-vehiculos.git
 En el directorio de la app, debes ejecutar
 
 ```bash
-node app.jss
+node app.js
 ```
 <br><br>
 # Hecho con mucho :heart:  
