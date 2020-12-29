@@ -35,7 +35,7 @@ const allProductsReq = require("./routes/products.js");
 const showProd = allProductsReq()
 
 //Sort del array de objetos por valor . 
-const sortArray = require("./sortArray.js");
+const sortArray = require("./modules/sortArray.js");
 const resultSort = sortArray(allProductsReqArray(), "desc")
 const sortedFilter = resultSort.filter((valorActual, indiceActual, arreglo) => {
   return arreglo.findIndex(valorDelArreglo => JSON.stringify(valorDelArreglo) === JSON.stringify(valorActual)) === indiceActual
